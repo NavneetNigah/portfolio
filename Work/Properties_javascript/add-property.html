@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<title>Add Property - Property Finder</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="keywords" content="rent property,sell property"/>
+<meta name="description" content="Rent or Sell Property in all over world."/>
+
+<meta name="audience" CONTENT="all">
+<meta name="copyright" CONTENT="by The Property Finder">
+<meta name="country" CONTENT="canada, india">
+
+<link type="text/css" rel="stylesheet" href="style/main.css" />
+<script type="text/javascript" src="javascript/script.js"></script>
+</head>
+    <body >
+    
+
+    <div id="banner" class="wrapper header header2" align="center">
+        
+        <header class="container">
+<section class="menu">
+        <a href="index.html" class="logo"><img src="images/logo1.png"></a>
+<section class="nav">
+    <button id="nav-button" class="nav-button" id="drop"><hr><hr></button>
+<nav id="nav-menu">
+<ul><li><a href="index.html">Home</a></li><li>
+    <a href="property.html">Find Property</a></li><li >
+    <a href="wishlist.html">Wishlist</a></li><li >
+        <a href="images.html">Images</a></li><li >
+    <a class="last" href="contact.html">Contact Us</a></li><li>
+    <a class="last button" href="add-property.html">Add Property</a></li><li >
+    </ul>    
+</nav>
+</section>
+        </section>
+
+        </header></div> 
+
+
+        <div class="wrapper" align="center">
+<section class="middle container">
+<h2>Add Property</h2>
+<div id="error"></div>
+    <form class="form">
+    <div class="inp"><input id="name" type="text" class="i" placeholder="Your Name"/></div><br>
+    <div class="inp"><input id="phone" type="text" class="i" placeholder="000-000-0000"/></div><br>
+    <div class="inp"><select class="i"><option>I Want Sell</option><option>I Want Rent</option></select></div><br>
+    <div class="inp"><input id="price" type="number" class="i" placeholder="Price"/></div><br>
+    <div class="inp"><input id="description" type="text" class="i" placeholder="Description"/></div><br>
+    <input type="button" onclick="submit_add_prperty()" value="Add Property" class="b"/>
+    
+    </form>
+    <aside id="reslt-add">
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Phone</th>
+                <th>Type</th>
+                <th>Price</th>
+                <th>Description</th>
+            </tr>
+            <tr>
+                <td id="nameR"></td>
+                <td id="phoneR"></td>
+                <td id="typeR"></td>
+                <td id="priceR"></td>
+                <td id="descriptionR"></td>
+                <td id="linkR"></td>
+            </tr>
+        </table>
+    </aside>
+</section>            
+            
+            
+            <footer class="container">
+<section class="menu">
+<nav>
+<ul><li><a href="index.html">Home</a></li><li>
+    <a href="property.html">Find Property</a></li><li >
+    <a href="wishlist.html">Wishlist</a></li><li >
+    <a href="contact.html">Contact Us</a></li><li>
+    <a class="last " href="add-property.html">Add Property</a></li><li >
+    </ul>    
+</nav>
+        </section>
+<article>Copyright  Navneetkaur &copy; 2018</article>
+            
+        </footer></div>
+
+    
+    </body></html>

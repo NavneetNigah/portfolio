@@ -1,0 +1,170 @@
+body{
+    background-color: #d6d9dc;
+}
+header{
+    background-image: url(../images/logo4.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color:floralwhite;
+    width: auto;
+    height: 40%;
+    color:#616c6c;
+   
+    text-align: center;  
+    
+}
+h1{
+    font-size: 3.5em;
+    font-weight:900;
+    font-style: oblique;
+    display: inline;
+    
+}
+nav{
+    text-align: left;
+    background-color: black;
+    color:white;
+    
+}
+nav ul li a {
+    font-size: 22px;
+    font-weight: bold;
+}
+nav ul{
+    line-height: 50px;
+    display: inline;
+}
+nav li{
+    padding: 0px 50px;
+    display: inline-block;
+    list-style-type: none;
+}
+nav a{
+    text-decoration: none;
+}
+nav a:link{
+    color: white;
+}
+nav a:visited{
+    color: beige;
+}
+main{
+    
+}
+div{
+     
+    /*width: 60%;
+    margin-left: 650px;
+    margin-right: auto;*/
+   
+}
+h2{
+    color: #1366e6;
+    font-weight: bold;
+    margin-left: 190px;
+}
+h3{
+    color: lightblue;
+    margin-left: 200px;
+}
+h4{
+    color: cornflowerblue;
+}
+td{
+    padding: 0px 15px;
+}
+div#link h2 a {
+    text-decoration: none;
+    text-shadow: 2px 2px #fff;
+    color: #000;
+}
+div#link h2 a:hover {
+    color: #7ab5c4;
+}
+div#smallimg {
+    display: flex;
+    flex: 10%;
+    flex-wrap: wrap;
+}
+div#smallimg img {
+    margin: 5px;
+}
+main {
+    height: 980px;
+}
+.img-cont span {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+.img-cont,div#main-cont,div#try1 {
+    width: 100%;
+    margin-left: 0px;
+    margin-right: auto;
+}
+.img-cont {
+    width: 32%;
+    float: left;
+    margin-left: 10px;
+}
+.img-cont img {
+    border-radius: 25px;
+}
+/*Facility Page*/
+ #facility div{
+            
+        }
+        #facility div img {
+            height: 110px;
+            width: 120px;
+            
+        }
+
+        #facility #smallimg {
+            margin-left: 150px;
+
+        }
+
+        #facility #slides img {
+            display: none;
+        }
+       #facility #link{
+            /*margin-left: 400px;*/
+        }
+        #facility .ans{
+            display: none;
+            padding: 2px 20%;
+        }
+        #link {
+            width: 80%;
+            margin: 0px auto;
+        }
+        #facility .hide
+        {
+            -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2s; /* Firefox < 16 */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+         -o-animation: fadein 2s; /* Opera < 12.1 */
+            animation: fadein 2s;
+        }
+        @keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+div#link h2 {
+    background: #000;
+    padding: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+div#outer td input {
+    border: 1px solid;
+    background: #ddd;
+}
+footer{
+    line-height: 40px;
+    text-align: center;
+    background-color: black;
+    color: antiquewhite;
+}

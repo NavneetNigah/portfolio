@@ -1,0 +1,503 @@
+*{
+	margin: 0px;
+    font-family: Britannic Bold;
+} 
+body {
+    background-image: url(images/bg3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#bg,#laptop-bg{
+	height: 500px;
+    background-image: url(images/bg.jpg);
+    background-position: center center;
+}
+header {
+    position: absolute;
+    color: #fff;
+    width: 100%;
+    margin-top: 17px;
+}
+nav {
+    float: right;
+    margin-right: 5%;
+}
+nav ul,#mob-nav ul {
+    list-style: none;
+}
+nav ul li , #mob-nav ul li{
+    float: left;
+    padding: 10px 20px;
+    font-size: 30px;
+}
+nav ul li a,#mob-nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+nav ul li:hover {
+    background-color: rgb(121, 109, 143,0.6);
+    border-radius: 50px;
+}
+nav ul li a:hover {
+    color: #fff;
+}
+span#logo {
+    padding: 99px;
+    position: relative;
+    top: 36px;
+    margin-left: 70px;
+    background-image: url(images/logo_f.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#home-page form {
+    width: 50%;
+    margin: auto;
+    position: relative;
+    top: 50%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background-color: rgba(222,2222,2222,0.3);
+    padding: 15px;
+}
+#home-page form input {
+    padding: 10px;
+    width: 31%;
+    border-radius: 50px;
+    border: none;
+/*    box-shadow: 2px 3px 5px;*/
+}
+#home-page input#search {
+    width: 17%;
+}
+div#about {
+    text-align: center;
+/*    padding: 22px;*/
+}
+#about h1 {
+    display: inline-block;
+    padding: 20px;
+    font-size: 4em;
+}
+div#abt-sec h1,div#specf h1 {
+    display: block;
+    width: 70%;
+    margin: auto;
+    background-color: rgba(255,255,255,0.2);
+    margin-bottom: 40px;
+    padding: 0px;
+}
+#about p {
+    width: 90%;
+    margin: auto;
+    font-size: 25px;
+    text-align: justify;
+}
+div#specf-1 {
+    width: 30%;
+    float: left;
+    margin-bottom: 25px;
+}
+div#specf-2 {
+    width: 30%;
+    float: left;
+}
+div#specf-3 {
+    width: 30%;
+    float: left;
+}
+div#specf h1 {
+    display: block;
+}
+div#specf-1 div ,div#specf-2 div,div#specf-3 div {
+    border: 1px solid;
+    width: 60%;
+    margin: auto;
+    padding: 20% 4px;
+    text-align: center;
+    background-color: rgba(222,2222,2222,0.3);
+    color: #000;
+    font-size: 23px;
+    border-radius: 0px 30px 0px 30px;
+}
+span.more-btn a{
+    display: block;
+    width: 30%;
+    margin: auto;
+    /*box-shadow: 1px 3px 24px #345;*/
+    padding: 6px 50px;
+    text-align: center;
+    margin-top: 27px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(121, 109, 143,0.5);
+}
+
+span.more-btn a:hover{
+        background-color: rgb(0,0,0,0.3);
+        border-radius: 20px;
+        color: #c3dee5;
+    
+}
+div#abt-sec,#specf {
+    padding: 60px 80px;
+}
+span.more-btn a {
+    text-decoration: none;
+    color: #000;
+    font-size: 23px;
+    text-transform: capitalize;
+}
+/* laptop page */
+#laptop-bg div {
+    position: relative;
+    top: 34%;
+    width: 57%;
+    margin: auto;
+    text-shadow: 4px 3px 11px #000;
+    font-size: 64px;
+    color: #fff;
+    background-color: rgba(222,2222,2222,0.3);
+    padding: 25px;
+}
+table, tr, th, td {
+    border: 1px solid #000;
+    border-collapse: collapse;
+}
+#main-div{
+    margin: auto;
+    width: 93%;
+    padding: 10px;
+}
+table tr th, table tr td {
+    padding: 10px;
+}
+div#main-div h1 , div#contact-page h1 {
+    text-align: center;
+    font-size: 45px;
+    padding: 15px;
+    width: 50%;
+    margin: auto;
+    background-color: rgba(255,255,255,0.3)
+}
+div#main-div h1 {
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+table tr:nth-child(odd) {
+    background-color: rgb(174,162,166,0.4);
+}
+table tr:nth-child(even) {
+    background-color: rgb(69,128,158,0.4);
+}
+
+td.buy-btn span {
+    display: block;
+    width: 70px;
+    margin: auto;
+    border: 1px solid green;
+    padding: 11px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 50px;
+    border: 1px solid;
+/*    box-shadow: 2px 3px 5px;*/
+}
+td.buy-btn span:hover {
+    background-color: #aa9db1;
+    color: #fff;
+    border: 1px dotted #000;
+}
+/* Contact Page */
+div#contact-page {
+    margin: auto;
+    width: 80%;
+    /*text-align: center;*/
+}
+div#contact-page h1 {
+    margin-top: 16px;
+}
+div#contact-left {
+    width: 50%;
+    float: left;
+}
+div#contact-left form input,#contact-left form textarea {
+    display: block;
+    padding: 10px;
+    width: 70%;
+   /* box-shadow: 1px 0px 6px;*/
+    border-radius: 7px;
+}
+#contact-left form input#submit {
+    width: 20% !important;
+    margin: 9px 0px;
+    padding: 10px;
+    width: 31%;
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 50px;
+    border: none;
+    /*box-shadow: 2px 3px 5px;*/
+}
+#contact-left form label {
+    display: block;
+    padding: 10px;
+    font-size: 23px;
+    color: #dfdfdf;
+    font-weight: bold;
+    text-shadow: 2px 2px 10px #245;
+}
+div#contact-right {
+    width: 50%;
+    float: right;
+}
+input#submit:hover {
+    background-color: #b9bdbd;
+    color: #56618e;
+}
+#map {
+    background-image: url(images/map.jpg);
+    height: 415px;
+    margin-top: 4%;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+    box-shadow: 1px 4px 12px;
+}
+.mobile-view{
+            display: none;
+        }
+        .desktop-view h3 {
+    height: 64px;
+}
+
+.mobile-view a {
+    text-decoration: none;
+    color: #000;
+}
+@media all and (max-width:480px) {
+   div#specf {
+    display: none;
+    }
+ }
+    @media only screen and (max-width: 768px) {
+            table {
+            width: 100%;
+            }
+            td, th {
+            display: block;
+        }
+        thead{
+            position: absolute;
+            left: -999px;
+            top: -999px;
+        }
+        .laptop-page table td:nth-of-type(1):before {
+            content: 'Lenovo : ';
+        }
+        .laptop-page table td:nth-of-type(2):before {
+            content: 'Dell : ';
+        }
+        .laptop-page table td:nth-of-type(3):before {
+            content: 'Hp : ';
+        }
+        .laptop-page table td:nth-of-type(4):before {
+            content: 'Acer : ';
+        }
+        .laptop-page table td:nth-of-type(5):before {
+            content: 'Microsoft : ';
+        }
+        .laptop-page table td:before,.mobile-page table td:before {
+            display: inline-block;
+            width: 30%;
+            font-weight: bold;
+        }
+        .desktop-view {
+            display: none;
+        }
+        /* Mobile Page */
+        .mobile-page table td:nth-of-type(1):before {
+            content: 'Samsung : ';
+        }
+        .mobile-page table td:nth-of-type(2):before {
+            content: 'Apple : ';
+        }
+        .mobile-page table td:nth-of-type(3):before {
+            content: 'Google : ';
+        }
+        .mobile-page table td:nth-of-type(4):before {
+            content: 'Moto : ';
+        }
+        .mobile-page table td:nth-of-type(5):before {
+            content: 'Redmi : ';
+        }
+        .mobile-page table td:before {
+            display: inline-block;
+            width: 30%;
+            font-weight: bold;
+        }
+        /* Mobile Page End */
+        #about h1{
+            font-size: 40px;
+        }
+        span#logo {
+            display: block;
+            padding: 28px;
+            top: 0px;
+            margin: auto;
+            background-color: rgb(0,0,0,0.4);
+            margin-top: 0px;
+        }
+            header{
+                margin: 0px;
+            }
+            #home-page form{
+            width: 90%;
+            display: block;
+            }
+            nav ul{
+                margin: 0px;
+                padding: 0px;
+            }
+            div#abt-sec, #specf{
+                padding: 25px 0px;
+            }
+            div#specf div {
+            /*display: block;
+            width: 95%;
+            float: none;
+            margin-bottom: 25px;
+            margin-left: 6px;*/
+        }
+        .mobile-view {
+            display: block !important;
+        }
+         .mobile-view a {
+            text-decoration: none;
+            color: #000;
+        }
+        .mobile-view a h3 {
+            height: 109px;
+        }
+        div#specf div .desc{
+            /*display: none !important;*/
+        }
+        nav ul li {
+            float: none;
+            padding: 5px 7px;
+            font-size: 20px;
+            text-align: center
+        }
+        #bg, #laptop-bg {
+            height: 300px;
+            background-image: url(images/bg.jpg);
+            background-position: top center;
+        }
+        #laptop-bg div {
+            position: relative;
+            top: 30%;
+            width: 60%;
+            margin: auto;
+            text-shadow: 4px 3px 11px #000;
+            font-size: 24px;
+            color: #fff;
+            background-color: rgba(222,2222,2222,0.3);
+            padding: 25px;
+        }
+        div#main-div h1, div#contact-page h1 {
+            text-align: center;
+            font-size: 30px;
+            padding: 15px;
+            width: 51%;
+            margin: auto;
+            background-color: rgba(255,255,255,0.3);
+        }
+        div#main-div h1 {
+            margin-bottom: 10px;
+        }
+        header{
+            position: unset;
+        }
+        nav{
+            float: none;
+            margin: auto;
+            position: relative;
+        }
+        div#contact-left,div#contact-right {
+            width: 100%;
+            float: none;
+        }
+        #contact-left form input#submit
+        {
+            width: auto !important;
+        }
+            div#contact-right{
+                display: none;
+            }
+            div#contact-left form input, #contact-left form textarea{
+                width: 90%;
+            }
+            div#contact-page {
+            margin: auto;
+            width: 90%;
+        }
+            div#contact-page h1 {
+            margin-top: 14px;
+        }
+        span#left,span#right {
+            float: none !important;
+            width: 100%;
+            display: block;
+            text-align: left !important;
+        }
+        span#right{
+            margin-top: 10px;
+        }
+        footer{
+            height: 170px !important;
+            
+        }
+    }
+
+    /* 1024 screen size */
+    @media only screen and (max-width: 1024px){
+        .mobile-view{
+            display: block;
+        }
+        .desktop-view{
+            display: none;
+        }
+    }
+/* media query ends */
+footer {
+    height: 80px;
+    padding: 15px;
+    background-color: #000;
+    color: #fff;
+    clear: both;
+}
+span#left {
+    float: left;
+    width: 50%;
+    font-size: 15px;
+}
+span#right {
+    float: right;
+    font-size: 14px;
+    font-style: italic;
+    text-align: center;
+}
+span#social ul{
+	list-style: none;
+}
+span#social ul li{
+	float: left;
+	padding-right: 16px;
+	padding-top: 7px;
+}
+span#social ul li img {
+    width: 30px;
+}

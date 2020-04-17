@@ -1,0 +1,43 @@
+body {
+    background-color:#d6d9dc;
+}
+div{
+    width: 100%;
+    height: auto;
+   
+}
+h3 {
+    color: #000;
+    margin-left: 0px;
+    font-size: 26px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+#wrapper {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+input[type="text"] {
+    width: 80%;
+    padding: 6px;
+}
+td{
+    padding: 20px;
+}
+table {
+    background-color: lightgray;
+    width: 100%;
+    border: 1px solid;
+}
+.button{
+    margin-left: 80px;
+    font-size:large;
+}
+div#text-bmi {
+    margin: 0px;
+}
+h2{
+    color: cornflowerblue;
+    margin-left: 50px;
+}

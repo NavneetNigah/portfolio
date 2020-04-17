@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<title>Search Property - Property Finder</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="keywords" content="rent property,sell property"/>
+<meta name="description" content="Rent or Sell Property in all over world."/>
+
+<meta name="audience" CONTENT="all">
+<meta name="copyright" CONTENT="by The Property Finder">
+<meta name="country" CONTENT="canada, india">
+
+<link type="text/css" rel="stylesheet" href="style/main.css" />
+<script type="text/javascript" src="javascript/script.js"></script>
+</head>
+    <body>
+    
+
+    <div id="banner" class="wrapper header header2" align="center">
+        
+        <header class="container">
+<section class="menu">
+        <a href="index.html" class="logo"><img src="images/logo.png"></a>
+<section class="nav">
+    <button id="nav-button" class="nav-button" id="drop"><hr><hr></button>
+<nav id="nav-menu">
+<ul><li><a href="index.html">Home</a></li><li>
+    <a href="property.html">Find Property</a></li><li >
+    <a href="wishlist.html">Wishlist</a></li><li >
+        <a href="images.html">Images</a></li><li >
+    <a class="last" href="contact.html">Contact Us</a></li><li>
+    <a class="last button" href="add-property.html">Add Property</a></li><li >
+    </ul>    
+</nav>
+</section>
+        </section>
+
+        </header></div>
+
+
+        <div class="wrapper" align="center">
+<section class="middle container">
+<h2>Your Search Result</h2>
+    <section class="data-flex">
+<aside data-type="condo">
+    <img src="images/image1.jpg"/>
+<a href="#">Abcd Flats</a>    
+<p>3BHK Flats</p>
+<p>15,000 - 20,000/-</p>
+<button onclick="add_wishlist(this)" data-name="Abcd Flats" data-price="$15,000 - $20,000/-" data-image="images/image1.jpg">Add Wishlist</button>
+</aside>  
+
+<aside data-type="condo">
+    <img src="images/image2.jpg"/>
+<a href="#">Abcd Flats</a>    
+<p>4BHK Flats</p>
+<p>25,000 - 40,000/-</p>
+<button onclick="add_wishlist(this)" data-name="Abcd Flats" data-price="$25,000 - $40,000/-" data-image="images/image2.jpg">Add Wishlist</button>
+</aside>  
+
+<aside data-type="condo">
+    <img src="images/image3.jpg"/>
+<a href="#">Hotel Room</a>    
+<p>3BHK Set</p>
+<p>15,000 - 20,000/-</p>
+<button onclick="add_wishlist(this)" data-name="Hotel Room" data-price="$15,000 - $20,000/-" data-image="images/image3.jpg">Add Wishlist</button>
+</aside>     
+<aside data-type="house">
+    <img src="images/image4.jpg"/>
+<a href="#">House</a>    
+<p>4BHK Flats</p>
+<p>5,15,00,000/-</p>
+<button onclick="add_wishlist(this)" data-name="House" data-price="$5,15,000 - $5,20,000/-" data-image="images/image4.jpg">Add Wishlist</button>
+</aside>     
+
+<aside data-type="house">
+    <img src="images/image5.jpg"/>
+<a href="#">Abcd Flats</a>    
+<p>3BHK Flats</p>
+<p>15,000 - 20,000/-</p>
+<button onclick="add_wishlist(this)" data-name="Abcd Flats 3BHK" data-price="$15,000 - $20,000/-" data-image="images/image5.jpg">Add Wishlist</button>
+</aside>     
+<aside data-type="house">
+    <img src="images/image6.jpg"/>
+<a href="#">Abcd Flats</a>    
+<p>4BHK Flats</p>
+<p>25,000 - 40,000/-</p>
+<button onclick="add_wishlist(this)" data-name="Abcd Flats" data-price="$25,000 - $40,000/-" data-image="images/image6.jpg">Add Wishlist</button>
+</aside>     
+<aside data-type="townhouse">
+    <img src="images/image3.jpg"/>
+<a href="#">Hotel Room</a>    
+<p>3BHK Set</p>
+<p>15,000 - 20,000/-</p>
+<button onclick="add_wishlist(this)" data-name="Hotel Room" data-price="$15,000 - $20,000/-" data-image="images/image3.jpg">Add Wishlist</button>
+</aside>     
+<aside data-type="townhouse">
+    <img src="images/image4.jpg"/>
+<a href="#">House</a>    
+<p>4BHK Flats</p>
+<p>5,15,00,000/-</p>
+<button onclick="add_wishlist(this)" data-name="House" data-price="$5,15,000 - $5,20,000/-" data-image="images/image4.jpg">Add Wishlist</button>
+</aside>     
+        
+<aside data-type="townhouse">
+    <img src="images/image1.jpg"/>
+<a href="#">Abcd Flats</a>    
+<p>3BHK Flats</p>
+<p>15,000 - 20,000/-</p>
+<button onclick="add_wishlist(this)" data-name="Abcd Flats" data-price="$15,000 - $20,000/-" data-image="images/image1.jpg">Add Wishlist</button>
+</aside>     
+<aside data-type="townhouse">
+    <img src="images/image2.jpg"/>
+<a href="#">Abcd Flats</a>    
+<p>4BHK Flats</p>
+<p>25,000 - 40,000/-</p>
+<button onclick="add_wishlist(this)" data-name="Abcd Flats" data-price="$25,000 - $40,000/-" data-image="images/image2.jpg">Add Wishlist</button>
+</aside>     
+<aside data-type="townhouse">
+    <img src="images/image3.jpg"/>
+<a href="#">Hotel Room</a>    
+<p>3BHK Set</p>
+<p>15,000 - 20,000/-</p>
+<button onclick="add_wishlist(this)" data-name="Hotel Room" data-price="$15,000 - $20,000/-" data-image="images/image3.jpg">Add Wishlist</button>
+</aside>     
+<aside data-type="condo">
+    <img src="images/image4.jpg"/>
+<a href="#">House</a>    
+<p>4BHK Flats</p>
+<p>5,15,00,000/-</p>
+<button onclick="add_wishlist(this)" data-name="House" data-price="$5,15,000 - $5,20,000/-" data-image="images/image4.jpg">Add Wishlist</button>
+</aside>     
+
+<aside data-type="house">
+    <img src="images/image5.jpg"/>
+<a href="#">Abcd Flats</a>    
+<p>3BHK Flats</p>
+<p>15,000 - 20,000/-</p>
+<button onclick="add_wishlist(this)" data-name="Abcd Flats" data-price="$15,000 - $20,000/-" data-image="images/image5.jpg">Add Wishlist</button>
+</aside>     
+<aside data-type="house">
+    <img src="images/image6.jpg"/>
+<a href="#">Abcd Flats</a>    
+<p>4BHK Flats</p>
+<p>25,000 - 40,000/-</p>
+<button onclick="add_wishlist(this)" data-name="Abcd Flats" data-price="$25,000 - $40,000/-" data-image="images/image6.jpg">Add Wishlist</button>
+</aside>     
+<aside data-type="condo">
+    <img src="images/image3.jpg"/>
+<a href="#">Hotel Room</a>    
+<p>3BHK Set</p>
+<p>15,000 - 20,000/-</p>
+<button onclick="add_wishlist(this)" data-name="Hotel" data-price="$15,000 - $20,000/-" data-image="images/image3.jpg">Add Wishlist</button>
+</aside>     
+<aside data-type="townhouse">
+    <img src="images/image4.jpg"/>
+<a href="#">House</a>    
+<p>4BHK Flats</p>
+<p>5,15,00,000/-</p>
+<button onclick="add_wishlist(this)" data-name="House" data-price="$5,15,000 - $5,20,000/-" data-image="images/image4.jpg">Add Wishlist</button>
+</aside>      
+</section>
+
+    <div id="empty" class="no-more-data">No More Data</div>
+<!-- <section id="pagging" class="pagging">
+    <a onclick="next_page()" href="javascript:void(0);">1</a>
+    <a onclick="next_page()" href="javascript:void(0);" class="current">2</a>
+    <a onclick="next_page()" href="javascript:void(0);">3</a>
+    <a onclick="next_page()" href="javascript:void(0);">4</a>
+
+        <a onclick="next_page()" href="javascript:void(0);">More</a>
+</section>  -->   
+</section>            
+            
+            
+            <footer class="container">
+<section class="menu">
+<nav>
+<ul><li><a href="index.html">Home</a></li><li>
+    <a href="property.html">Find Property</a></li><li >
+    <a href="wishlist.html">Wishlist</a></li><li >
+    <a href="contact.html">Contact Us</a></li><li>
+    <a class="last " href="add-property.html">Add Property</a></li><li >
+    </ul>    
+</nav>
+        </section>
+<article>Copyright Navneetkaur &copy; 2018</article>
+            
+        </footer></div>
+
+    
+    </body>
+</html>

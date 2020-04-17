@@ -1,0 +1,212 @@
+html, body {
+    height: 100%;
+}
+body{
+font-family: arial;
+margin: 0;
+text-align: center;
+}
+.error,.success{padding: 10px;margin: 10px;background: red;color:#fff;width: 300px;display: inline-block}
+.success{background: green}
+.nav-button{display: none;}
+
+a{
+color:#e00606eb;
+text-decoration: none
+}
+span#note {
+    font-size: small;
+    font-style: italic;
+    color: red;
+}
+.flex{
+display: flex;
+flex-wrap: nowrap;flex-direction: row;
+}
+.data-flex{
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+justify-content:space-around;
+}
+
+aside#reslt-add {
+    margin-top: 30px;
+    border: 1px solid;
+    padding: 14px;
+    background: #00800054;
+    display: block;
+    opacity: 0;
+}
+button#sb-btn {
+    background: red;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+}
+.container{text-align: left;max-width: 980px;padding:15px}
+
+
+.header{background:url('../images/banner1.jpg') no-repeat center;background-size:cover;height:350px;}
+.header .container{padding-top:0}
+.header .menu{background:rgba(255,255,255,0.9);padding: 20px;border-radius: 0px 0px 5px 5px}
+.header .menu .logo{font-size:25px}
+.header .menu .logo img{height:30px}
+.header .menu .nav{float:right}
+footer nav li,footer nav ul,.header .menu nav li,.header .menu nav ul{margin:0;padding:0;list-style: none}
+footer nav li,.header .menu nav li{display: inline-block;padding:5px}
+footer nav li a,.header .menu nav li a{display: inline-block;padding:0px 10px;border-right: solid 1px #ccc;font-size: 13px}
+footer nav li .last,.header .menu nav li .last{border-right-width: 0 }
+.header .menu nav li a:hover{color:#333}
+.header .menu nav li .button{background: #e00606eb;color:#fff;padding:5px 10px;margin:-5px 0px;border-radius: 3px}
+.header .menu nav li .button:hover{color:#fff;background: #333}
+
+.search{text-align: center;padding: 10px}
+.search h2{color:#fff;text-shadow:0px 1px 1px #000;font-size: 200%}
+.search p{color:#fff;text-shadow:0px 1px 1px #000}
+.search form{}
+.search form input{border-radius:30px;border:solid 1px #ccc;background: #fff url('../images/search-ico.png') no-repeat center right;background-position: right 20px center;font-size: 20px;padding:15px;width:400px;text-align: center;outline: none;box-shadow:0px 2px 2px rgba(0,0,0,0.2);border-width: 0}
+
+
+.header2{height:auto;background: #fff !important}
+
+footer{text-align: center !important;border-top: solid 1px #ddd;}
+footer article{padding: 15px;font-size: 14px}
+
+.middle{text-align: center}
+.middle article{padding: 16px;color:#333}
+
+.middle article h2{color:#222}
+
+.data-flex aside{padding: 15px;text-align: left}
+.data-flex aside:hover{outline:solid 1px #ddd}
+.data-flex aside img{margin-bottom: 20px;width: 100%;border-radius: 10px}
+.data-flex aside a{display: block;font-weight: bold}
+.data-flex aside p{margin:0;font-size: 12px;padding: 5px;color:#444}
+.data-flex aside button{background:#fff;border:solid 2px #d57b2f;color:#d57b2f;font-weight: bold;padding:5px 10px;cursor: pointer;outline: none}
+
+.pagging{padding: 15px}
+.pagging a{padding: 15px;display: inline-block}
+.pagging .current{background: #e00606eb;color:#fff}
+
+.no-more-data{background: #eee;border:solid 1px #ddd;padding: 15px;color:#555;display: none
+}
+
+table{width: 100%;border-collapse: collapse;padding:0;}
+table td{padding: 15px}
+thead td{border-bottom:solid 2px #e00606eb;font-weight: bold}
+tbody td{border-bottom: solid 1px #ddd}
+tbody .od td{background: #d3fdff}
+tbody .last{border-bottom-width: 0}
+
+table .image{width:60px}
+table .image img{width:100%;border-radius: 10px}
+table .detail{width:100px}
+table .action{width:10px}
+
+.form{}
+.form .inp{display: inline-block;width:300px;border:solid 1px #ccc;margin-bottom: 20px;overflow: hidden}
+.form .i{font-size: 17px;color:#222;border-width: 0;background: #fff;padding:10px;width:100%}
+.form .b{background: #e00606eb;color:#fff;padding: 10px 20px;font-size: 17px;border-width: 0;cursor: pointer}
+
+
+
+
+@media (max-width: 768px) {
+.nav-button{display: none;}
+
+.data-flex{
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+justify-content:space-around;
+}
+
+
+.container{text-align: left;max-width: auto;padding:15px}
+
+
+.header{background:url('../images/banner1.jpg') no-repeat center;background-size:cover;height:auto;}
+.header .container{padding:0;text-align:center}
+    .header .menu{background:#fff;padding: 20px;border-radius: 0px}
+.header .menu .logo img{height:40px}
+    .header .menu .nav{float: none}
+    .header .menu nav{float:none;position: absolute;left: 0;right:0;background: #e00606eb;display: none;text-align: left;top: 0}
+footer nav li,footer nav ul,.header .menu nav li,.header .menu nav ul{margin:0;padding:0;list-style: none;}
+.nav-button{
+    display: block;
+    position: absolute;top:20px;width:35px;
+    border:solid 2px #e00606eb;
+    background: transparent;right:20px
+}
+.nav:hover nav,nav:hover{
+display: block
+}
+
+.nav-button hr{
+border:solid 1px #e00606eb;    
+}
+    
+    
+footer nav li,.header .menu nav li{display: block;padding:5px}
+footer nav li a,.header .menu nav li a{display: block;padding:10px;border-right: solid 0px #ccc;font-size: 13px;color:#fff}
+footer nav li .last,.header .menu nav li .last{border-right-width: 0 }
+    .header .menu nav li a:hover{color:#333}
+.header .menu nav li .button{background: #fff;color:#e00606eb;padding:5px 10px;margin:-5px 0px;border-radius: 0px}
+.header .menu nav li .button:hover{color:#fff;background: #333}
+
+.search{text-align: center;padding: 0px}
+.search h2{color:#fff;text-shadow:0px 1px 1px #000;font-size: 200%;display: none}
+.search p{color:#fff;text-shadow:0px 1px 1px #000;display: none}
+.search form{}
+.search form input{border:solid 1px #ccc;background: #fff url('../images/search-ico.png') no-repeat center right;background-position: right 20px center;font-size: 20px;padding:15px;width:100%;text-align: left;outline: none;box-shadow:0px 2px 2px rgba(0,0,0,0.2);border-width: 0}
+
+
+.header2{height:auto;background: #fff !important}
+
+footer{text-align: left !important;border-top: solid 1px #ddd;background:#e00606eb }
+footer article{padding: 15px;font-size: 14px;color:#ccc}
+
+.middle{text-align: center}
+.middle article{padding: 16px;color:#333}
+
+.middle article h2{color:#222}
+
+.data-flex aside{padding: 15px;text-align: left;width: 40%}
+.data-flex aside:hover{outline:solid 1px #ddd}
+.data-flex aside img{margin-bottom: 20px;width: 100%;border-radius: 10px}
+.data-flex aside a{display: block;font-weight: bold}
+.data-flex aside p{margin:0;font-size: 12px;padding: 5px;color:#444}
+.data-flex aside button{background:#fff;border:solid 2px #d57b2f;color:#d57b2f;font-weight: bold;padding:5px 10px;cursor: pointer;outline: none}
+
+.pagging{padding: 15px;display: flex;flex-wrap: nowrap;flex-direction: row;
+justify-content:space-around;
+}
+.pagging a{padding: 15px;display: inline-block}
+.pagging .current{background: #e00606eb;color:#fff}
+
+.no-more-data{background: #eee;border:solid 1px #ddd;padding: 15px;color:#555;display: none
+}
+
+table{width: 100%;border-collapse: collapse;padding:0;}
+table td{padding: 10px}
+thead td{border-bottom:solid 2px #e00606eb;font-weight: bold}
+tbody td{border-bottom: solid 1px #ddd}
+tbody .od td{background: #d3fdff}
+tbody .last{border-bottom-width: 0}
+
+table .image{width:40px}
+table .image img{width:100%;border-radius: 10px}
+table .detail{width:100px;display: none}
+table .action{width:10px}
+
+
+
+.form{}
+.form .inp{display: block;width:auto;border:solid 1px #ccc;margin-bottom: 20px;overflow: hidden}
+.form .i{font-size: 17px;color:#222;border-width: 0;background: #fff;padding:10px;width:100%}
+.form .b{background: #e00606eb;color:#fff;padding: 10px 20px;font-size: 17px;border-width: 0;cursor: pointer;width: 100%}
+
+    .error,.success{width: auto;display: block}
+}

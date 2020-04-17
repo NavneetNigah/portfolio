@@ -1,0 +1,143 @@
+
+            *{
+                margin: 0px;
+            }
+             body{
+               /* background-image: url('images/brush.jpg');*/
+               background-color: #ff6910;
+               font-family: cursive;
+             }
+             header {
+    background-color: #ff6910;
+    padding: 10px 5px;
+    line-height: 50px;
+}
+header h1 {
+    text-align: left;
+    font-size: 50px;
+    font-family: Forte;
+    color: #fff;
+    padding-left: 30px;
+}
+nav{
+position: absolute;
+    top: 20px;
+    right: 20px;
+}
+nav ul li {
+    float: left;
+    padding-left: 12px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 21px;
+    padding: 10px;
+}
+nav ul li a:hover {
+    background-color: #ffffff;
+    color: #ff6910;
+    border-radius: 25px;
+}
+nav ul {
+    list-style: none;
+}
+#image{
+    background-image: url('images/food.jpg');
+    height: 350px;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section#image div {
+    display: inline-block;
+    width: 50%;
+    margin: auto;
+    position: relative;
+    top: 24%;
+    left: 4%;
+    font-size: 42px;
+    color: #ff6910;
+}
+.about,#menu{
+    width: 1200px;
+    height: 400px;
+    margin: auto auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: white;
+}
+section {
+    border-bottom: 1px solid #fff;
+    padding-bottom: 15px;
+}
+.about .left {
+    width: 50%;
+    float: left;
+}
+div.right h2 {
+    font-size: 42px;
+    text-shadow: 4px 6px 8px #000;
+    }
+div.right {
+    margin-top: 34px;
+}
+div#rightm {
+    float: right;
+}
+div#leftm {
+    width: 50%;
+    text-align: center;
+    float: left;
+}
+div#leftm h2 {
+    font-size: 40px;
+    text-shadow: 4px 6px 8px #000;
+}
+div#leftm dl {
+    text-align: justify;
+}
+#leftm dl dt {
+    padding-top: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    /* border-bottom: 1px solid; */
+    padding-bottom: 5px;
+    color: #eff271;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 5px #000;
+}
+/*#leftm dl dd {
+    padding-bottom: 10px;
+    box-shadow: 0px 1px #fff;
+}*/
+footer {
+    padding: 10px;
+    text-align: center;
+    font-style: italic;
+    font-size: small;
+    color: white;
+}
+img {
+    border-radius: 19px;
+    box-shadow: 8px 8px 18px #000;
+}
+#button {
+    padding: 10px 30px;
+    border: 1px solid black;
+    border-radius: 50px;
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: black;
+}
+a#button:hover {
+    background-color: #ffffff;
+    color: #ff6910;
+    border: 1px dotted blue;
+}
+span#email {
+    font-style: italic;
+    text-decoration: underline;
+}
+        
